@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    background-image: url('background-padrao.png');
+}
+h2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-family: 'Lobster', cursive;
+}
+.box {
+    display: flex;
+}
+.content {
+    border: 1px red solid;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 5px 5px 5px #111111;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.content td {
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 25px;
+}
+.content figcaption {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#capa{
+    width: 250px;
+}
+.ator {
+    width: 150px;
+    margin: 5px;
+}
+.ator:hover{
+    opacity: 0.8;
+}
+.content video {
+    width: 300px;
+}
+th {
+    text-align: justify;
+}
+td {
+    text-align: center;
+}
+.sinopse {
+    padding: 2px;
+    font-size: 14px;
+    text-indent: 25px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.sinopse::first-letter{
+    font-size: 24px;
+    color: red;
+}
+.sinopse::first-line {
+    font-variant: small-caps;
+    font-style: italic;
+}
+#btn {
+    font-size: 18px;
+    margin-top: 50px;
+}
+#btn a {
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    box-shadow: 5px 5px 5px #111111;
+}
+#btn a:hover {
+    padding: 6px;
+}
+@media (max-width: 600px) {
+    .box {
+        flex-wrap: wrap;
+    }
+    body {
+        width: 100vw;
+    }
+    .content {
+        margin: 5px auto;
+    }
+}
+@media (max-width: 900px) {
+    .box {
+        flex-direction: column;
+    }
+    body {
+        width: 100vw;
+    }
+    .content {
+        margin: 10px auto;
+    }
+    .box2 {
+        flex-wrap: wrap;
+        margin-left: 60px;
+    }
+}
+.box2 .content {
+    margin-left: 25px;
+}

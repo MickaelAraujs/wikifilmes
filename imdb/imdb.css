@@ -1,0 +1,64 @@
+.lista-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lista-filmes figure {
+    margin-left: 25px;
+}
+.lista-filmes a {
+    text-decoration: none;
+}
+.lista-filmes figcaption {
+    text-align: center;
+    color: black;
+    padding-bottom: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    
+}
+.lista-filmes a:hover figcaption{
+    color: red;
+}
+.lista-filmes img {
+    width: 250px;
+    padding: 10px;
+    
+}
+.lista-filmes img {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+section {
+    margin: 25px;
+}
+.texto {
+    text-indent: 25px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 10px;
+    margin: 5px;
+}
+.texto::first-line {
+    font-variant: small-caps;
+}
+.texto::first-letter {
+    font-size: 25px;
+    color: red;
+}
+.texto a {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.texto a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,99 @@
+#corpo {
+    margin-top: 50px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#top {
+    background-color: black;
+    opacity: 0.8;
+    min-height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.content {
+    margin: 25px;
+    color: white;
+}
+.content img {
+    width: 200px;
+}
+.content figure:hover {
+    opacity: 0.8;
+    color: #EE0000;
+}
+.content figcaption {
+    font-size: 14px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+.hype {
+    background-color: black;
+    opacity: 0.8;
+    height: 1100px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#corpo h3 {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-transform: capitalize;
+}
+.hype h3 {
+    font-size: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-transform: capitalize;
+}
+.content figure {
+    margin-left: 20px;
+}
+#sobre {
+    margin: 10px 0 40px 0;
+    background-color: black;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 5px;
+}
+#sobre p {
+    text-indent: 30px;
+    font-size: 26px;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-left: 5px;
+    line-height: 40px;
+    color: white;
+}
+#sobre p::first-line {
+    font-variant: small-caps;
+    font-style: italic;
+}
+#sobre p::first-letter {
+    font-size: 36px;
+}
+#sobre span {
+    color: #EE0000;
+    font-size: 36px;
+    letter-spacing: 5px;
+    padding: 5px;
+    text-shadow: 1px 3px 2px #111111;
+    font-style: normal;
+}
+@media (max-width: 600px) {
+    #corpo {
+        justify-content: space-around;
+    }
+} 

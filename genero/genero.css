@@ -1,0 +1,52 @@
+.box {
+    height: 250px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+.content h3 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin: 60px auto;
+    text-shadow: 1px 1px 1px #111111;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.content {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin: 5px auto;
+    background-size: cover;
+    background-position: center;
+}
+.content:hover {
+    opacity: 0.8;
+}
+#acao {
+    background-image: url('acao.jpg');  
+}
+#aventura {
+    background-image: url('aventura.jpeg'); 
+}
+#terror {
+    background-image: url('terror.png'); 
+}
+#suspense {
+    background-image: url('suspense.jpg'); 
+}
+#corpo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.content a {
+    text-decoration: none;
+    color: white;
+}
+.content a:hover {
+    letter-spacing: 5px;
+}
